@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MASTER EN CSS</title>
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./CSS/Estilos.css">
+    <link rel="stylesheet" href="./CSS/normalize.css">
+    <script defer src="./JS/app.js"></script>
+
+    <meta name="theme-color" content="#2091F9">
+
+    <meta name="title" content="Aprende CSS desde cero">
+    <meta name="description"
+        content="Hola, soy una descripción que verás cuando busques algo de mi temática en Google.">
+
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://alexcgdesign.github.io">
+    <meta property="og:title" content="Aprende CSS desde cero">
+    <meta property="og:description"
+        content="Hola, soy una descripción que verás cuando busques algo de mi temática en Google.">
+    <meta property="og:image" content="https://alexcgdesign.github.io/images/css.jpg">
+
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://www.jordanalex.com/">
+    <meta property="twitter:title" content="Aprende CSS desde cero">
+    <meta property="twitter:description"
+        content="Hola, soy una descripción que verás cuando busques algo de mi temática en Google.">
+    <meta property="twitter:image" content="https://alexcgdesign.github.io/images/css.jpg">
+     <script src="https://kit.fontawesome.com/7943b13e18.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header class="hero">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <h2 class="nav__title">Sesiones Laboratorio</h2>
+            </div>
+
+            <ul class="nav__link nav__link--menu">
+                <li class="nav__items">
+                    <a href="#Inicio" class="nav__links">Inicio</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#Sesiones" class="nav__links">Sesiones</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#contacto" class="nav__links">Contacto</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#Blog" class="nav__links">Blog</a>
+                </li>
+
+                <img src="./Images/arrow.svg" class="nav__close">
+            </ul>
+
+            <div class="nav__menu">
+                <img src="./Images/latop.jpg" class="nav__img">
+            </div>
+        </nav>
+
+        <section class="hero__container container" id="Inicio">
+            <h1 class="hero__title">BITÁCORA</h1>
+            <p class="hero__paragraph">LABORATORIO DE INNOVACIÓN</p>
+            <p class="hero__paragraph">ING. ANDREW STEVEN MOSTACERO CABANILLAS</p>
+            <p class="hero__paragraph">Presentado por </p>
+            <p class="hero__paragraph">Alisson Vargas Cabanillas </p>
+            <a href="#" class="cta">Comienza ahora</a>
+        </section>
+    </header>
+
+    <main>
+        <section class="container about" id="Sesiones">
+            <h2 class="subtitle">Estructura de la pagina web</h2>
+            <p class="about__paragraph"></p>
+
+            <div class="about__main">
+                <article class="about__icons">
+                    <img src="./Images/doc.svg" class="about__icon">
+                    <h3 class="about__title">Documentación Web</h3>
+                    <p class="about__paragrah">La documentación de un sitio web previene errores y asegura el correcto uso de la plataforma en el futuro.</p>
+                    <p class="about__paragrah">IMÁGENES</p>
+                    <p class="about__paragrah">Para añadir imágenes a una página web hay que escribir el siguiente código HTML:
+                        Atributo src, la ruta de la imagen.</p>
+                </article>
+
+                <article class="about__icons">
+                    <img src="./Images/lista.svg" class="about__icon">
+                    <h3 class="about__title">LISTAS ORDENADAS Y NO ORDENADAS</h3>
+                    <p class="about__paragrah">La etiqueta ol permite crear una lista ordenada, la cual se encuentra delimitada por la etiqueta inicial ol y la etiqueta final /ol .  Cada elemento de la lista es creado con la etiqueta li, la cual también tiene etiqueta inicial li y etiqueta final /li </p>
+                </article>
+
+                <article class="cn_img">
+                    <img src="./Images/text.svg" class="about__icon">
+                    <h3 class="about__title">Formato de Texto</h3>
+                   <p>
+                    <img src="./Images/1.jpeg" class="img_png">
+                
+                    <img src="./Images/2.jpeg" class="img_png">
+                    </p>
+                   
+                </article>
+            </div>
+        </section>
+
+        <section class="knowledge"> 
+            <h1 class="rigth_title">FABRICACIÓN DIGITAL</h1>
+            <div class="knowledge__container container">
+               
+                <div class="knowledege__texts">
+                    <h2 class="subtitle">Manufactura Auditiva</h2>
+                    <div> <h3> Impresoras 3d (FDM)</h3>
+                        <img src="./Images/impresora.jpeg" class="img_png"></div>
+                    <div><h3>Sinterizado Selectivo por Láser (SLS) </h3>
+                        <img src="./Images/vava.jpeg" class="img_png"></div>
+                    <div><h3> Estereolitografía (SLA) </h3>
+                        <img src="./Images/ester.jpeg" class="img_png"></div>
+                    <a href="#" class="cta">Entra al curso</a>
+                </div>
+
+                <div class="knowledege__texts">
+                    <h2 class="subtitle"> Manufactura Sustractiva</h2>
+                            <div> <h3>Cortador Láser </h3>
+                                <img src="./Images/cortador laser.jpeg" class="img_png"></div>
+                            <div> <h3>Mecanizado CNC </h3>
+                                <img src="./Images/cnc.jpeg" class="img_png"></div>
+                            <div> <h3>Cortador por chorro de agua. </h3>
+                        
+                                <img src="./Images/cort.jpeg" class="img_png"></div>
+                            <a href="#" class="cta">Entra al curso</a>
+                        </div>
+                   
+                </div>
+            </div>
+        </section>
+
+        <section class="price container">
+            <h2 class="subtitle">Fundamento del CAD y CAM</h2>
+            <p class="knowledge__paragraph">CAD, o diseño y programa  de diseño CAD, es una tecnología para el diseño y la documentación técnica, que sustituye el dibujo manual por un proceso automatizado.</p>
+
+            <div class="price__table">
+                <div class="price__element">
+                    <p class="price__name"></p>
+                    <img src="./Images/blender.jpeg" class="testimony__img">
+                    <h3 class="price__price">Blender</h3>
+
+                    <div class="price__items">
+                        <p class="knowledge__paragraph">
+                            Blender usa poligonos para crear una forma tridimensional.
+                            Esta compuesto por una multitud de poligonos o facetas, que forman una malla</p>
+                        
+                    </div>
+
+                    <a href="#" class="price__cta">Más información</a>
+                </div>
+
+
+                <div class="price__element price__element--best">
+                    <p class="price__name"></p>
+                    <img src="./Images/3dmax.jpeg" class="testimony__img">
+                    <h3 class="price__price">3Ds Max</h3>
+
+                    <div class="price__items">
+                        <p class="knowledge__paragraph">
+                            Es un  programa de gráficos por ordenador utilizado para crear modelos 3D, animaciones e imágenes digitales.
+Modelado, animación y renderizado 3D.</p>
+                    </div>
+
+                    <a href="#" class="price__cta">Más información</a>
+                    </div>
+                </div>
+                <div class="price__table">
+                    <div class="price__element">
+                        <p class="price__name"></p>
+                        <img src="./Images/fusion 360.jpeg" class="testimony__img">
+                        <h3 class="price__price">Fusion 360</h3>
+    
+                        <div class="price__items">
+                            <p class="knowledge__paragraph">
+                                Permite crear modelos 3D mecánicos y técnicos.
+El software es limitado en términos de modelado orgánico.</p>
+                            
+                        </div>
+    
+                        <a href="#" class="price__cta">Más información</a>
+                    </div>
+                    <div class="price__table">
+                        <div class="price__element">
+                            <p class="price__name"></p>
+                            
+                            <h3 class="price__price">Proceso de la Clase</h3>
+                            <img src="./Images/clase1.jpeg" class="clase1">
+                            <ol>
+
+                            </ol>
+                            <img src="./Images/clase2.jpeg" class="clase1">
+                            </div>
+        
+                            
+                        </div>    
+                    
+
+
+        </section>
+
+        <section class="testimony">
+            <div class="testimony__container container" id="contacto">
+                <img src="./Images/left-arrow.svg" class="testimony__arrow" id="before">
+
+                <section class="testimony__body testimony__body--show" data-id="1">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Mi nombre es Alisson Vargas Cabanillas, <span class="testimony__course">Arquitecta de Interiores</span></h2>
+                        <p class="testimony__review">Toulouse Lautrec - Chacarilla
+                            Arquitectura de interiores
+                            8vo  Ciclo</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./Images/Yo.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="2">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">En mis tiempos libres hago... <span class="testimony__course"></span></h2>
+                        <p class="testimony__review">Trato de aprender algún tema nuevo, leer algunas paginas de un libro o emprender, que es algo que he empezado estas vacaciones, creando 3 diferentes emprendimientos, complementándolos con mi carrera.</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./Images/SINERGIA & ART (2).png" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="3">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Trabajo  <span class="testimony__course">
+                                </span></h2>
+                        <p class="testimony__review">Actualmente trabajo en una empresa contratista llamada MRB & Asociados Contratistas, en la cual desempeño  las funciones de asístete de empresa y supervisora de obra, realización de 3D y planos.</p>
+                    </div>
+
+                    <figure class="testimony__picture">
+                        <img src="./Images/WhatsApp Image 2022-11-06 at 6.44.34 PM.jpeg" class="testimony__img">
+                    </figure>
+                </section>
+
+                <section class="testimony__body" data-id="4">
+                    <div class="testimony__texts">
+                        <h2 class="subtitle">Tengo un emprendimiento... <span class="testimony__course">                                                               </span></h2>
+                        <p class="testimony__review">Actualmente cuento con 3 emprendimientos, 2 de ellos con enfoques similares relacionados con mi carrera y 1 en modo de hobby.</p>
+                             <a href="https://www.instagram.com/sinergia.arquitectos/" class="Emp_Link">@Sinergia</a>
+                             <a href="https://www.instagram.com/serendipia.arthome/" class="Emp-Link">@SerendipiaArtHome</a>
+                             <a href="https://www.instagram.com/estigia.pe/" class="Emp-Link">@Estigia</a>
+
+                    </div>
+
+
+                    <figure class="testimony__picture">
+                        <img src="./images/face4.jpg" class="testimony__img">
+                    </figure>
+                </section>
+
+
+                <img src="./Images/right-arrow.svg" class="testimony__arrow" id="next">
+            </div>
+        </section>
+       <ol>
+       </ol>
+       <section class="knowledge"> 
+    
+        <div class="knowledge__container container">
+           
+            <div class="knowledege__texts">
+                <h2 class="subtitle">Tinkercad</h2>
+                    <img src="./Images/tinker.jpeg" class="testimony__img"></div>
+                    <p class="knowledge__paragraph">
+                        Tinkercad es un software gratuito de diseño y modelado 3D que encanta a todos por su facilidad de uso. 
+                        Permite diseñar cualquier objeto con volumen de forma intuitiva y después llevarlo a la realidad mediante una impresora 3D. Por ello hoy en día Tinkercad es la opción favorita de millones de Makers para fabricar todo tipo de objetos según sus propias ideas y en su propia casa. 
+                    </p>
+                              
+                <div><h3> ELECTRÓNICA BÁSICA </h3>
+                    <img src="./Images/ester.jpeg" class="img_png"></div>
+                    
+                                <div> 
+                                    <img src="./Images/c1.jpeg" class="img_png"></div>
+                                <div> 
+                                    <img src="./Images/c2.jpeg" class="img_png"></div>
+                                <div> 
+                                    <img src="./Images/l1.jpeg" class="img_png"></div>
+                            
+                            
+                    <div class="knowledege__texts">
+                        
+                         <div> 
+                                    <img src="./Images/f1.jpeg" class="img_png"></div>
+                         
+                    </div>
+                
+            </div>
+
+            
+    
+               
+            </div>
+        </div>
+    </section>
+        
+
+            <section class="questions__offer"> 
+                <h2 class="subtitle" class="pi">PROGRAMACIÓN IDE</h2>
+                <DIV class="pi">
+                    <img src="./Images/CCA.jpeg" class="vaca"><ol></ol>
+                    <img src="./Images/CAC.jpeg" class="vaca">
+                </DIV>
+                <DIV>
+                    <img src="./Images/BOCINA.jpeg" class="img_png">
+                    <img src="./Images/MOVIMIENTO.jpeg" class="img_png">
+                </DIV>
+                <a href="#" class="cta">SIGUIENTES SESIONES</a>
+            </section>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <section class="footer__container container">
+            <nav class="nav nav--footer">
+                <h2 class="footer__title">TEMAS.</h2>
+
+                <ul class="nav__link nav__link--footer">
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Inicio</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Sesiones</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Contacto</a>
+                    </li>
+                    <li class="nav__items">
+                        <a href="#" class="nav__links">Blog</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <form class="footer__form" action="https://formspree.io/f/mknkkrkj" method="POST">
+                <h2 class="footer__newsletter">Cuéntame de tí</h2>
+                <div class="footer__inputs">
+                    <input type="email" placeholder="Email:" class="footer__input" name="_replyto">
+                    <input type="submit" value="Enviar" class="footer__submit">
+                </div>
+            </form>
+        </section>
+
+        <section class="footer__copy container">
+            <div class="footer__social">
+                <a href="#" class="footer__icons"><img src="./Images/facebook.svg" class="footer__img"></a>
+                <a href="https://www.instagram.com/alissonvargas.arq/" class="footer__icons"><img src="./Images/Instagram.svg" class="footer__img"></a>
+               
+            </div>
+
+            <h3 class="footer__copyright">Derechos reservados &copy; Alisson Vargas Cabanillas</h3>
+        </section>
+    </footer>
+
+    <script src="./JS/slider.js"></script>
+    <script src="./JS/question.js"></script>
+    <script src="./JS/menu.js"></script>
+</body>
+
+</html>
